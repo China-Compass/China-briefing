@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>China Briefing | Independent China Travel Guidance</title>
+    <meta
+      name="description"
+      content="China travel help for independent visitors: where to book, what to prepare, how to avoid crowds, and how to explore on your own."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#top" aria-label="China Briefing home">
+        <span class="brand-mark">CB</span>
+        <span>China Briefing</span>
+      </a>
+      <nav class="nav" aria-label="Main navigation">
+        <a href="#crowd-risk">Forecast</a>
+        <a href="#cities">Cities</a>
+        <a href="#tools">Apps</a>
+        <a href="#booking">Booking</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/hero-china-travel.jpg" alt="Independent travelers navigating a city street in China" />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Practical China travel planning tool</p>
+          <h1 id="hero-title">Plan a China trip that works before you land.</h1>
+          <p class="hero-copy">
+            Check crowd risk, choose a first city, prepare the right apps, and understand which bookings need passports, official channels, or backup plans.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button-link button-primary" href="#crowd-risk">Start Planning My Trip</a>
+            <a class="button-link button-secondary" href="#cities">Explore City Guides</a>
+          </div>
+        </div>
+      </section>
+
+      <nav class="quick-nav" aria-label="Quick navigation">
+        <a href="#crowd-risk">Forecast</a>
+        <a href="#cities">Cities</a>
+        <a href="#tools">Apps</a>
+        <a href="#booking">Booking</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+
+      <section class="section trust-section" aria-label="Trust principles">
+        <article>
+          <span class="trust-mark">01</span>
+          <h2>Independent recommendations</h2>
+          <p>Guides are written around traveler decisions, not partner inventory.</p>
+        </article>
+        <article>
+          <span class="trust-mark">02</span>
+          <h2>No sponsored attractions</h2>
+          <p>Places are included because they help visitors understand or enjoy the city.</p>
+        </article>
+        <article>
+          <span class="trust-mark">03</span>
+          <h2>Practical traveler-first advice</h2>
+          <p>Each recommendation explains booking friction, cost, transport, and backup options.</p>
+        </article>
+      </section>
+
+      <section class="section risk-section" id="crowd-risk" aria-labelledby="risk-title">
+        <div class="forecast-layout">
+          <div class="section-heading">
+            <p class="eyebrow">Crowd forecast</p>
+            <h2 id="risk-title">Check whether your day can stay ambitious.</h2>
+            <p>
+              Choose the city, date, and activity type. The label translates holidays, weekends, and attraction friction into a practical planning rule.
+            </p>
+          </div>
+          <div class="forecast-panel">
+            <form class="trip-panel" aria-label="Crowd forecast preview">
+              <label>
+                City
+                <select id="citySelect">
+                  <option>Shanghai</option>
+                  <option>Beijing</option>
+                  <option>Chengdu</option>
+                </select>
+              </label>
+              <label>
+                Travel date
+                <input id="dateInput" type="date" value="2026-10-03" />
+              </label>
+              <label>
+                Activity type
+                <select id="interestSelect">
+                  <option>Classic landmark</option>
+                  <option>Museum or exhibition</option>
+                  <option>Food neighborhood</option>
+                  <option>Theme park or day trip</option>
+                </select>
+              </label>
+              <button type="button" id="previewButton">Check my day</button>
+            </form>
+            <div class="risk-result" id="riskResult" aria-live="polite">
+              <span class="risk-dot risk-extreme"></span>
+              <strong>Extreme crowd risk</strong>
+              <span>National Day holiday. Keep the plan simple and choose one backup nearby.</span>
+            </div>
+          </div>
+        </div>
+        <div class="risk-grid">
+          <article class="risk-card">
+            <span class="risk-dot risk-low"></span>
+            <h3>Low</h3>
+            <p>Good for wandering, photo walks, cafes, and flexible same-day choices.</p>
+          </article>
+          <article class="risk-card">
+            <span class="risk-dot risk-moderate"></span>
+            <h3>Moderate</h3>
+            <p>Still workable. Start earlier, check opening hours, and avoid peak meal times.</p>
+          </article>
+          <article class="risk-card">
+            <span class="risk-dot risk-high"></span>
+            <h3>High</h3>
+            <p>Book the anchor activity, reduce cross-city moves, and keep one nearby backup.</p>
+          </article>
+          <article class="risk-card">
+            <span class="risk-dot risk-extreme"></span>
+            <h3>Extreme</h3>
+            <p>Pick one main plan. Avoid tight routes, famous sights at midday, and long transfers.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="cities" aria-labelledby="cities-title">
+        <div class="section-heading">
+          <p class="eyebrow">City exploration</p>
+          <h2 id="cities-title">Choose a city, then see what kind of day it is good for.</h2>
+          <p>Shanghai is open now. Beijing and Chengdu are shown as coming soon, with sample directions for the future guide structure.</p>
+        </div>
+        <div class="city-grid">
+          <article class="city-card">
+            <div class="city-image">
+              <img src="assets/attractions/shanghai-bund-heritage.jpg" alt="Historic buildings along the Bund waterfront in Shanghai" />
+            </div>
+            <div>
+              <h3>Shanghai</h3>
+              <p>The easiest first stop for a self-guided China trip: walkable neighborhoods, simple metro routes, strong hotels, and many places you can enjoy without a guide.</p>
+            </div>
+            <ul>
+              <li>Best base: People's Square, Jing'an, or Xuhui</li>
+              <li>Easy solo wins: The Bund, Wukang Road, museums</li>
+              <li>Good while there: West Bund or Pudong art route, Suzhou Creek walk, local food cards</li>
+            </ul>
+            <a class="card-link" href="cities/shanghai.html">Plan Shanghai on your own</a>
+          </article>
+          <article class="city-card city-card-pending">
+            <div class="city-image">
+              <img src="assets/city-beijing.jpg" alt="Beijing historic architecture and hutong atmosphere" />
+            </div>
+            <div>
+              <h3>Beijing</h3>
+              <p>Best for classic China, but more reservation-heavy. A good plan matters because many top sights need passport-based timed entry.</p>
+            </div>
+            <ul>
+              <li>Best base: Dongcheng, Wangfujing, or Sanlitun</li>
+              <li>Easy solo wins: hutongs, parks, food streets</li>
+              <li>Future guide: Forbidden City planning, hutong walks, evening food routes</li>
+            </ul>
+            <span class="card-link card-link-disabled">Coming soon</span>
+          </article>
+          <article class="city-card city-card-pending">
+            <div class="city-image">
+              <img src="assets/city-chengdu.jpg" alt="Chengdu teahouse courtyard and local city life" />
+            </div>
+            <div>
+              <h3>Chengdu</h3>
+              <p>A relaxed city for food, teahouses, pandas, and slow local life. Great if you want China to feel less rushed.</p>
+            </div>
+            <ul>
+              <li>Best base: Chunxi Road, Taikoo Li, or Kuanzhai</li>
+              <li>Easy solo wins: teahouses, food walks, parks</li>
+              <li>Future guide: panda mornings, teahouse afternoons, Sichuan opera evenings</li>
+            </ul>
+            <span class="card-link card-link-disabled">Coming soon</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="section tools-section" id="tools" aria-labelledby="tools-title">
+        <div class="section-heading">
+          <p class="eyebrow">Best apps for China travel</p>
+          <h2 id="tools-title">Install the local apps before you need them at the counter.</h2>
+          <p>These apps are not all tourist-friendly, but they cover the situations that most often block independent travelers: hotels, restaurants, maps, taxis, payments, and train tickets.</p>
+        </div>
+        <div class="tool-grid">
+          <article class="tool-card">
+            <div class="app-heading">
+              <span class="app-logo logo-trip">T</span>
+              <div><strong>Trip.com / 携程</strong><small>Search both names</small></div>
+            </div>
+            <span class="tag">Hotels + trains</span>
+            <h3>Trip.com / Ctrip</h3>
+            <p>Use Trip.com for English checkout. Ctrip can show deeper domestic inventory if you can handle Chinese flows.</p>
+          </article>
+          <article class="tool-card">
+            <div class="app-heading">
+              <span class="app-logo logo-dianping">点</span>
+              <div><strong>Dianping / 大众点评</strong><small>Restaurant discovery</small></div>
+            </div>
+            <span class="tag">Restaurants</span>
+            <h3>Dianping</h3>
+            <p>Best for finding local restaurants, opening hours, queues, photos, and neighborhood food density.</p>
+          </article>
+          <article class="tool-card">
+            <div class="app-heading app-heading-dual">
+              <span class="app-logo logo-amap">高</span>
+              <span class="app-logo logo-baidu">百</span>
+              <div><strong>Amap / Baidu Maps</strong><small>高德地图 / 百度地图</small></div>
+            </div>
+            <span class="tag">Maps</span>
+            <h3>Amap or Baidu Maps</h3>
+            <p>Use for walking routes, metro exits, taxi pickup points, and current business locations inside China.</p>
+          </article>
+          <article class="tool-card">
+            <div class="app-heading">
+              <span class="app-logo logo-didi">D</span>
+              <div><strong>DiDi / 滴滴出行</strong><small>Ride-hailing</small></div>
+            </div>
+            <span class="tag">Ride-hailing</span>
+            <h3>DiDi</h3>
+            <p>Useful for airport transfers, late nights, rain, and luggage days. Save destination names in Chinese.</p>
+          </article>
+          <article class="tool-card">
+            <div class="app-heading app-heading-dual">
+              <span class="app-logo logo-alipay">支</span>
+              <span class="app-logo logo-wechat">微</span>
+              <div><strong>Alipay / WeChat Pay</strong><small>支付宝 / 微信支付</small></div>
+            </div>
+            <span class="tag">Payments</span>
+            <h3>Alipay / WeChat Pay</h3>
+            <p>Set up before departure. Many restaurant, metro, taxi, and attraction moments assume mobile payment.</p>
+          </article>
+          <article class="tool-card">
+            <div class="app-heading">
+              <span class="app-logo logo-wechat">微</span>
+              <div><strong>WeChat / 微信</strong><small>Mini programs</small></div>
+            </div>
+            <span class="tag">Official tickets</span>
+            <h3>WeChat mini programs</h3>
+            <p>Some museums and attractions still rely on official mini programs. Use the city guide to know when this matters.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section booking-section" id="booking" aria-labelledby="booking-title">
+        <div class="section-heading booking-heading">
+          <p class="eyebrow">How to book hotels in China</p>
+          <h2 id="booking-title">Use the right booking path before you waste time in the wrong app.</h2>
+          <p>
+            The key question is not “can I book this?” It is “which channel is least likely to fail with my passport, payment method, and travel date?”
+          </p>
+        </div>
+        <div class="guide-list">
+          <article class="guide-card booking-checklist">
+            <span class="tag">Decision rule</span>
+            <h3>Check these four things first</h3>
+            <ol>
+              <li>Does the place require passport-based real-name booking?</li>
+              <li>Is there a timed entry window or daily quota?</li>
+              <li>Can an international card or English checkout work?</li>
+              <li>What is the nearby backup if tickets fail?</li>
+            </ol>
+          </article>
+          <article class="guide-card">
+            <span class="tag">Hotels</span>
+            <h3>Default path: Trip.com, then hotel official site</h3>
+            <p>Use Trip.com when you need English checkout and passport-friendly support. For international chains, compare the official site if loyalty or cancellation matters.</p>
+            <a href="guides/book-hotels-in-china.html">Read the hotel guide</a>
+          </article>
+          <article class="guide-card">
+            <span class="tag">Attractions</span>
+            <h3>Free walk, official site, or English platform?</h3>
+            <p>For each stop, separate “no ticket,” “official reservation,” and “English-friendly reseller.” Shanghai cards already show this per attraction.</p>
+            <a href="cities/shanghai.html">See Shanghai examples</a>
+          </article>
+          <article class="guide-card">
+            <span class="tag">Transport</span>
+            <h3>Metro for city days, Trip.com for trains</h3>
+            <p>Use metro for predictable urban movement. For high-speed rail, book with the exact passport you will carry on the travel day.</p>
+            <span class="inline-status">Transport guide coming soon</span>
+          </article>
+          <article class="guide-card">
+            <span class="tag">Payments</span>
+            <h3>Set up payment before the flight</h3>
+            <p>Prepare Alipay or WeChat Pay, keep a physical card backup, and avoid relying on cash-only assumptions in major cities.</p>
+            <span class="inline-status">Payment checklist coming soon</span>
+          </article>
+          <article class="guide-card">
+            <span class="tag">Crowds</span>
+            <h3>Book less when risk is extreme</h3>
+            <p>During major holidays, one anchor booking plus one nearby backup is usually safer than stacking three paid activities.</p>
+            <a href="#crowd-risk">Read crowd labels</a>
+          </article>
+        </div>
+      </section>
+
+      <section class="section faq-section" id="faq" aria-labelledby="faq-title">
+        <div class="section-heading">
+          <p class="eyebrow">China travel FAQ</p>
+          <h2 id="faq-title">Fast answers for first-time independent travelers.</h2>
+          <p>Short answers to the questions that usually come up before booking hotels, attractions, trains, and city days.</p>
+        </div>
+        <div class="faq-grid">
+          <article class="faq-card">
+            <h3>Can I travel in China without joining a tour?</h3>
+            <p>Yes, especially in major cities. The hard parts are usually booking channels, payment setup, passport-based tickets, and live navigation.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Which app should I install first?</h3>
+            <p>Start with Trip.com, Alipay, WeChat, a local map app, and DiDi. Add Dianping when you want better restaurant discovery.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Do attractions require passports?</h3>
+            <p>Many paid or timed-entry attractions do. Keep your passport details consistent across tickets, hotels, and train bookings.</p>
+          </article>
+          <article class="faq-card">
+            <h3>When should I avoid famous sights?</h3>
+            <p>Major holidays, weekends, and midday peaks are the main risk windows. Use the forecast label to decide how much to simplify.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section email-signup" aria-labelledby="signup-title">
+        <div>
+          <p class="eyebrow">Travel alerts</p>
+          <h2 id="signup-title">Get China travel updates and holiday alerts.</h2>
+          <p>Receive practical updates about booking windows, major holiday crowd risk, city guide releases, and app setup changes.</p>
+        </div>
+        <form class="signup-form">
+          <label>
+            Email
+            <input type="email" placeholder="you@example.com" />
+          </label>
+          <label>
+            Trip focus
+            <select>
+              <option>Shanghai first trip</option>
+              <option>Multi-city China trip</option>
+              <option>China travel apps and payments</option>
+              <option>Holiday crowd alerts</option>
+            </select>
+          </label>
+          <button type="button">Get travel updates</button>
+        </form>
+      </section>
+
+      <section class="section tips-section" id="tips" aria-labelledby="tips-title">
+        <div class="section-heading">
+          <p class="eyebrow">Practical tips</p>
+          <h2 id="tips-title">Prepare the small things that keep a local situation moving.</h2>
+          <p>
+            These are not sightseeing tips. They are the tiny operating details that help when a counter, restaurant, taxi, or attraction gate needs a quick answer.
+          </p>
+        </div>
+        <div class="tips-board">
+          <article class="tip-card">
+            <span class="tag">At counters</span>
+            <h3>Open the proof before your turn</h3>
+            <p>Have passport, QR code, booking page, and Chinese venue name ready. Staff can move faster when they do not need to interpret a long explanation.</p>
+          </article>
+          <article class="tip-card">
+            <span class="tag">Restaurants</span>
+            <h3>Be specific about food limits</h3>
+            <p>Vegetable dishes may still use meat broth, oyster sauce, shrimp, pork fat, or garnish. Vegetarian and vegan requests need direct Chinese lines.</p>
+          </article>
+          <article class="tip-card">
+            <span class="tag">Transport</span>
+            <h3>Save the return before leaving</h3>
+            <p>Keep your hotel address in Chinese, nearest metro station, and a screenshot of the area. This matters most after dinner or in bad weather.</p>
+          </article>
+          <article class="tip-card">
+            <span class="tag">Culture</span>
+            <h3>Expect efficient service</h3>
+            <p>Busy staff may be direct rather than chatty. Short requests, clear screenshots, and a calm tone usually work better than over-explaining.</p>
+          </article>
+
+          <aside class="phrase-card" aria-label="Emergency Chinese phrases">
+            <div>
+              <p class="eyebrow">Show this</p>
+              <h3>Useful Chinese lines</h3>
+            </div>
+            <dl class="phrase-list">
+              <div>
+                <dt>I do not speak Chinese.</dt>
+                <dd>我不会说中文。</dd>
+              </div>
+              <div>
+                <dt>Please help me check this address.</dt>
+                <dd>请帮我看一下这个地址。</dd>
+              </div>
+              <div>
+                <dt>Can I pay with Alipay or WeChat Pay?</dt>
+                <dd>可以用支付宝或微信支付吗？</dd>
+              </div>
+              <div>
+                <dt>I cannot eat spicy food.</dt>
+                <dd>我不能吃辣。</dd>
+              </div>
+              <div>
+                <dt>I am vegetarian. No meat or seafood, please.</dt>
+                <dd>我吃素。请不要放肉和海鲜。</dd>
+              </div>
+              <div>
+                <dt>I am vegan. No meat, seafood, eggs, or dairy, please.</dt>
+                <dd>我是纯素。请不要放肉、海鲜、鸡蛋和奶制品。</dd>
+              </div>
+              <div>
+                <dt>Please do not use meat broth or pork fat.</dt>
+                <dd>请不要用肉汤或猪油。</dd>
+              </div>
+              <div>
+                <dt>I am allergic to peanuts.</dt>
+                <dd>我对花生过敏。</dd>
+              </div>
+              <div>
+                <dt>Please take me to this hotel.</dt>
+                <dd>请带我去这家酒店。</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <p>China Briefing helps independent travelers understand what to do. Bookings happen on trusted external platforms.</p>
+      <a href="#top">Back to top</a>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>

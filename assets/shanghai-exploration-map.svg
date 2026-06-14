@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" role="img" aria-labelledby="title desc">
+  <title id="title">Abstract Shanghai exploration map</title>
+  <desc id="desc">A simplified Shanghai orientation map showing the Huangpu River, Suzhou Creek, airports, railway stations, neighborhoods, major sights, and museum areas.</desc>
+  <rect width="920" height="620" fill="#f7f4ee"/>
+  <path d="M0 540 C160 505 250 565 394 512 C530 462 632 524 920 462 L920 620 L0 620 Z" fill="#e6eee9"/>
+  <path d="M0 64 C150 22 298 50 436 28 C620 0 748 48 920 26 L920 0 L0 0 Z" fill="#edf1e8"/>
+  <path d="M520 18 C468 80 462 150 508 214 C554 276 624 306 604 382 C584 470 646 522 730 596" fill="none" stroke="#9bb9c6" stroke-width="44" stroke-linecap="round"/>
+  <path d="M0 220 C118 208 186 184 282 204 C374 224 438 202 520 178" fill="none" stroke="#adc7d1" stroke-width="24" stroke-linecap="round"/>
+  <path d="M520 18 C468 80 462 150 508 214 C554 276 624 306 604 382 C584 470 646 522 730 596" fill="none" stroke="#d9ecf1" stroke-width="18" stroke-linecap="round"/>
+  <path d="M0 220 C118 208 186 184 282 204 C374 224 438 202 520 178" fill="none" stroke="#e5f3f6" stroke-width="10" stroke-linecap="round"/>
+  <text x="566" y="94" fill="#5b7881" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700">Huangpu River</text>
+  <text x="152" y="184" fill="#5b7881" font-family="Inter, Arial, sans-serif" font-size="17" font-weight="700">Suzhou Creek</text>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="14" font-weight="760">
+    <circle cx="192" cy="314" r="12" fill="#1e6b56"/>
+    <text x="212" y="319" fill="#1f2a26">Jing'an</text>
+    <circle cx="322" cy="306" r="12" fill="#1e6b56"/>
+    <text x="342" y="311" fill="#1f2a26">People's Sq.</text>
+    <circle cx="260" cy="430" r="12" fill="#1e6b56"/>
+    <text x="280" y="435" fill="#1f2a26">Xuhui</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="720">
+    <circle cx="468" cy="262" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="484" y="266" fill="#2b4139">Bund</text>
+    <circle cx="586" cy="250" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="602" y="254" fill="#2b4139">Lujiazui</text>
+    <circle cx="624" cy="302" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="640" y="306" fill="#2b4139">MAP</text>
+    <circle cx="374" cy="362" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="390" y="366" fill="#2b4139">Yu Garden</text>
+    <circle cx="220" cy="388" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="236" y="392" fill="#2b4139">Wukang Rd.</text>
+    <circle cx="164" cy="480" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="180" y="484" fill="#2b4139">Longhua</text>
+    <circle cx="278" cy="458" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="294" y="462" fill="#2b4139">Cathedral</text>
+    <circle cx="150" cy="210" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="166" y="214" fill="#2b4139">M50</text>
+    <circle cx="612" cy="404" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="628" y="408" fill="#2b4139">Power Station</text>
+    <circle cx="218" cy="530" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="234" y="534" fill="#2b4139">West Bund</text>
+    <circle cx="780" cy="496" r="8" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="796" y="500" fill="#2b4139">Disney</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="13" font-weight="780">
+    <rect x="36" y="62" width="142" height="52" rx="8" fill="#fffdf8" stroke="#ded8ce"/>
+    <text x="54" y="84" fill="#7a4b00">SHA / Hongqiao</text>
+    <text x="54" y="104" fill="#5f6b64">Airport + Rail</text>
+    <rect x="724" y="106" width="150" height="52" rx="8" fill="#fffdf8" stroke="#ded8ce"/>
+    <text x="742" y="128" fill="#7a4b00">PVG / Pudong</text>
+    <text x="742" y="148" fill="#5f6b64">International airport</text>
+    <rect x="682" y="42" width="136" height="42" rx="8" fill="#fffdf8" stroke="#ded8ce"/>
+    <text x="700" y="68" fill="#5f6b64">Shanghai Sta.</text>
+  </g>
+
+  <g font-family="Inter, Arial, sans-serif" font-size="12" font-weight="760">
+    <rect x="40" y="548" width="216" height="42" rx="8" fill="#fffdf8" stroke="#ded8ce"/>
+    <circle cx="62" cy="569" r="7" fill="#1e6b56"/>
+    <text x="78" y="573" fill="#405049">Good bases for first-timers</text>
+    <rect x="274" y="548" width="216" height="42" rx="8" fill="#fffdf8" stroke="#ded8ce"/>
+    <circle cx="296" cy="569" r="7" fill="#ffffff" stroke="#2b4139" stroke-width="3"/>
+    <text x="312" y="573" fill="#405049">Major exploration stops</text>
+    <rect x="508" y="548" width="278" height="42" rx="8" fill="#fffdf8" stroke="#ded8ce"/>
+    <text x="530" y="573" fill="#405049">Use this for orientation, not navigation</text>
+  </g>
+</svg>
