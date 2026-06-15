@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://china-compass.github.io/China-briefing/sitemap.xml
